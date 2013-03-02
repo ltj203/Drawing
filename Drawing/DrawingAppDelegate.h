@@ -10,6 +10,8 @@
 
 @interface DrawingAppDelegate : UIResponder <UIApplicationDelegate>
 
+-(void) touchUpInside: (id) sender;
+
 @property (strong, nonatomic) UIWindow *window;
 
 @end

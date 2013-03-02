@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE14F23716E2799700F95D21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14F23616E2799700F95D21 /* QuartzCore.framework */; };
+		CE14F23916E2876C00F95D21 /* easil.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CE14F23816E2876C00F95D21 /* easil.JPG */; };
+		CE14F23C16E2892F00F95D21 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14F23B16E2892F00F95D21 /* IntroViewController.m */; };
 		CE5B78F116E189700017BF4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5B78F016E189700017BF4E /* UIKit.framework */; };
 		CE5B78F316E189700017BF4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5B78F216E189700017BF4E /* Foundation.framework */; };
 		CE5B78F516E189700017BF4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5B78F416E189700017BF4E /* CoreGraphics.framework */; };
@@ -18,9 +21,18 @@
 		CE5B790716E189700017BF4E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5B790616E189700017BF4E /* Default-568h@2x.png */; };
 		CE5B790A16E189700017BF4E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5B790816E189700017BF4E /* MainStoryboard.storyboard */; };
 		CE5B790D16E189700017BF4E /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B790C16E189700017BF4E /* DrawingViewController.m */; };
+		CE5B791516E189E20017BF4E /* colorSample.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B791416E189E20017BF4E /* colorSample.m */; };
+		CE6D985916E24717001677F6 /* clover.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6D985516E24717001677F6 /* clover.png */; };
+		CE6D985A16E24717001677F6 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6D985616E24717001677F6 /* egg.png */; };
+		CE6D985B16E24717001677F6 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6D985716E24717001677F6 /* flower.png */; };
+		CE6D985C16E24717001677F6 /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6D985816E24717001677F6 /* rabbit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE14F23616E2799700F95D21 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE14F23816E2876C00F95D21 /* easil.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = easil.JPG; sourceTree = "<group>"; };
+		CE14F23A16E2892F00F95D21 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		CE14F23B16E2892F00F95D21 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		CE5B78ED16E189700017BF4E /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5B78F016E189700017BF4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE5B78F216E189700017BF4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +49,12 @@
 		CE5B790916E189700017BF4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CE5B790B16E189700017BF4E /* DrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
 		CE5B790C16E189700017BF4E /* DrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		CE5B791316E189E20017BF4E /* colorSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorSample.h; sourceTree = "<group>"; };
+		CE5B791416E189E20017BF4E /* colorSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorSample.m; sourceTree = "<group>"; };
+		CE6D985516E24717001677F6 /* clover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clover.png; sourceTree = "<group>"; };
+		CE6D985616E24717001677F6 /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
+		CE6D985716E24717001677F6 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		CE6D985816E24717001677F6 /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE14F23716E2799700F95D21 /* QuartzCore.framework in Frameworks */,
 				CE5B78F116E189700017BF4E /* UIKit.framework in Frameworks */,
 				CE5B78F316E189700017BF4E /* Foundation.framework in Frameworks */,
 				CE5B78F516E189700017BF4E /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +75,7 @@
 		CE5B78E416E189700017BF4E = {
 			isa = PBXGroup;
 			children = (
+				CE14F23616E2799700F95D21 /* QuartzCore.framework */,
 				CE5B78F616E189700017BF4E /* Drawing */,
 				CE5B78EF16E189700017BF4E /* Frameworks */,
 				CE5B78EE16E189700017BF4E /* Products */,
@@ -83,11 +103,20 @@
 		CE5B78F616E189700017BF4E /* Drawing */ = {
 			isa = PBXGroup;
 			children = (
+				CE6D985516E24717001677F6 /* clover.png */,
+				CE6D985616E24717001677F6 /* egg.png */,
+				CE6D985716E24717001677F6 /* flower.png */,
+				CE6D985816E24717001677F6 /* rabbit.png */,
 				CE5B78FF16E189700017BF4E /* DrawingAppDelegate.h */,
+				CE5B791316E189E20017BF4E /* colorSample.h */,
+				CE5B791416E189E20017BF4E /* colorSample.m */,
 				CE5B790016E189700017BF4E /* DrawingAppDelegate.m */,
 				CE5B790816E189700017BF4E /* MainStoryboard.storyboard */,
+				CE14F23816E2876C00F95D21 /* easil.JPG */,
 				CE5B790B16E189700017BF4E /* DrawingViewController.h */,
 				CE5B790C16E189700017BF4E /* DrawingViewController.m */,
+				CE14F23A16E2892F00F95D21 /* IntroViewController.h */,
+				CE14F23B16E2892F00F95D21 /* IntroViewController.m */,
 				CE5B78F716E189700017BF4E /* Supporting Files */,
 			);
 			path = Drawing;
@@ -164,6 +193,11 @@
 				CE5B790516E189700017BF4E /* Default@2x.png in Resources */,
 				CE5B790716E189700017BF4E /* Default-568h@2x.png in Resources */,
 				CE5B790A16E189700017BF4E /* MainStoryboard.storyboard in Resources */,
+				CE6D985916E24717001677F6 /* clover.png in Resources */,
+				CE6D985A16E24717001677F6 /* egg.png in Resources */,
+				CE6D985B16E24717001677F6 /* flower.png in Resources */,
+				CE6D985C16E24717001677F6 /* rabbit.png in Resources */,
+				CE14F23916E2876C00F95D21 /* easil.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +211,8 @@
 				CE5B78FD16E189700017BF4E /* main.m in Sources */,
 				CE5B790116E189700017BF4E /* DrawingAppDelegate.m in Sources */,
 				CE5B790D16E189700017BF4E /* DrawingViewController.m in Sources */,
+				CE5B791516E189E20017BF4E /* colorSample.m in Sources */,
+				CE14F23C16E2892F00F95D21 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +335,7 @@
 				CE5B791216E189700017BF4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
