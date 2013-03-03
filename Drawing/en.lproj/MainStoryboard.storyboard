@@ -97,6 +97,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="PMb-w6-x63" kind="modal" identifier="segueToStart" modalTransitionStyle="crossDissolve" id="ig8-8h-0LZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -106,22 +109,6 @@
     <resources>
         <image name="easil.JPG" width="167" height="132"/>
     </resources>
-    <classes>
-        <class className="DrawingViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DrawingViewController.h"/>
-        </class>
-        <class className="IntroViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IntroViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="blankCanvas:" candidateClass="UIButton"/>
-                <relationship kind="action" name="pickPhoto:" candidateClass="UIButton"/>
-                <relationship kind="action" name="takePhoto:" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

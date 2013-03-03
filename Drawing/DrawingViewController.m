@@ -129,6 +129,14 @@
     [saveButton addTarget:self action:@selector(touchUpInsideSave:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:saveButton];
     
+    UIButton *back = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    back.frame = CGRectMake(self.view.frame.origin.x + self.view.frame.size.width/2 - self.view.frame.size.width/12, 28, self.view.frame.size.width/6, 40);
+    [back setTitle:@"Back" forState:UIControlStateNormal];
+    [back setTitleColor: [UIColor purpleColor] forState:UIControlStateNormal];
+    [back setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
+    [back addTarget:self action:@selector(backToHome:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:back];
+    
     leftObjects = [[NSMutableArray alloc] initWithObjects:colorPalette, red, green, blue, nil];
     rightObjects = [[NSMutableArray alloc] initWithObjects:sizePalette, small, medium, large, nil];
     bottomObjects = [[NSMutableArray alloc] initWithObjects:imagesPalette, clover, egg, flower, rabbit, nil];
@@ -193,6 +201,10 @@
     UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     UIImageWriteToSavedPhotosAlbum(viewImage, nil, nil, nil);
+}
+
+-(void) backToHome: (id) sender {
+    [self performSegueWithIdentifier:@"segueToStart" sender:self];
 }
 
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
